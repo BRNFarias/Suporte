@@ -1,0 +1,22 @@
+{
+  "name": "tech-website",
+  "version": "1.0.0",
+  "description": "A single-page website with a tech theme, featuring a presentation section and a contact form.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "keywords": [
+    "tech",
+    "website",
+    "single-page",
+    "contact form"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
