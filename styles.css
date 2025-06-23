@@ -24,6 +24,12 @@ body:not(.dark-theme) .servicos-detalhados,
 body:not(.dark-theme) .contato {
     background: #fff;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 24px;
+}
+body:not(.dark-theme) .servicos {
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 24px;
 }
 body:not(.dark-theme) h1,
 body:not(.dark-theme) h2,
@@ -39,7 +45,9 @@ body:not(.dark-theme) .form-btn {
 }
 body:not(.dark-theme) .card {
     background: #f8fafd;
-    border-color: #dde6ef;
+    border: 1px solid #dde6ef;
+    border-radius: 24px; /* Garante cantos arredondados */
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 body:not(.dark-theme) label {
     color: #007bff;
@@ -199,7 +207,7 @@ body:not(.dark-theme) #toggle-theme:hover {
     font-size: 1.2em;
 }
 .card p {
-    color: #e6f1ff;
+    color: #6fa8f3;
     font-size: 1em;
 }
 
@@ -274,7 +282,7 @@ body:not(.dark-theme) #toggle-theme:hover {
 .servicos-detalhados li {
     margin-bottom: 16px;
     font-size: 1.08em;
-    color: #e6f1ff;
+    color: #6fa8f3;
 }
 .servicos-detalhados strong {
     color: #00ff00;
