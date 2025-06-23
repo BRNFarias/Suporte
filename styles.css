@@ -12,6 +12,54 @@ body {
     min-height: 100vh;
 }
 
+/* Tema claro (quando NÃO estiver dark-theme) */
+body:not(.dark-theme) {
+    background: linear-gradient(120deg, #f4f4f4 60%, #e0e7ef 100%);
+    color: #222;
+}
+body:not(.dark-theme) .hero,
+body:not(.dark-theme) .servicos,
+body:not(.dark-theme) .sobre,
+body:not(.dark-theme) .servicos-detalhados,
+body:not(.dark-theme) .contato {
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+body:not(.dark-theme) h1,
+body:not(.dark-theme) h2,
+body:not(.dark-theme) h3,
+body:not(.dark-theme) strong {
+    color: #007bff;
+}
+body:not(.dark-theme) .hero-btn,
+body:not(.dark-theme) .sobre-btn,
+body:not(.dark-theme) .form-btn {
+    background: #007bff;
+    color: #fff;
+}
+body:not(.dark-theme) .card {
+    background: #f8fafd;
+    border-color: #dde6ef;
+}
+body:not(.dark-theme) label {
+    color: #007bff;
+}
+body:not(.dark-theme) input,
+body:not(.dark-theme) textarea {
+    background: #fff;
+    color: #222;
+    border: 1px solid #007bff;
+}
+body:not(.dark-theme) #toggle-theme {
+    background: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+body:not(.dark-theme) #toggle-theme:hover {
+    background: #007bff;
+    color: #fff;
+}
+
 /* Botão de tema */
 #toggle-theme {
     position: fixed;
